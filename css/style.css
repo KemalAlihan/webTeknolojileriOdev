@@ -1,0 +1,129 @@
+* {
+    background-color: #fff0f0;
+  }
+  h1{
+    font-size: 25px;
+    text-align: left;
+    color: #009714
+    
+  }
+  
+  article {
+    background-color: fff0f0;
+    width: auto;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 50px;
+    margin: 20px;
+    font-size: 54px;
+    text-align: center;
+  }
+  
+  ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+  }
+  
+  
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+  
+  
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  
+  p {
+    font-size: 49px;
+    text-align: center;
+    color: rgb(122, 0, 0);
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .iletisim-form {
+    width: 459px;
+    padding: 50px;
+    display: block;
+    margin: 0 auto;
+    background: fff0f0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd65e', endColorstr='#febf04', GradientType=0);
+  }
+  
+  form {
+    margin: 0 auto;
+    background-color: #fff0f0;
+  }
+  
+  input,
+  textarea {
+    width: 439px;
+    height: 27px;
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #3a3a3a;
+  }
+  
+  input,
+  textarea {
+    width: 439px;
+    height: 27px;
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #3a3a3a;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 213px;
+  
+    background: url(textarea-bg.png) right no-repeat #efefef;
+    background-size: contain;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border: 1px solid #97d6eb;
+  }
+  
+  #kaydet {
+    width: 127px;
+    height: 38px;
+    background: linear-gradient(to bottom, #103e88 0%, #020a36 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#45484d', endColorstr='#000000', GradientType=0);
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  #kaydet:hover {
+    opacity: .9;
+  }
